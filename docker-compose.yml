@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  php:
+    build: ./
+    volumes:
+      - ./gg:/var/www/html
+    ports:
+      - "8093:80"
